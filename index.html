@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <h1 class="portfolio-heading">Portfolio</h1>
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" style="display:none;">
+            &#9776;
+        </button>
+    </div>
+    
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-container" style="display: flex; align-items: center; gap: 2rem;">
+            <div class="about-text" style="flex: 1;">
+                <p>
+                    I’m Jeevamani, a data science enthusiast with a strong foundation in machine learning, data analysis, and visualization. I thrive on exploring large datasets, uncovering meaningful patterns, and leveraging statistical techniques to guide smarter decisions. My passion lies in bridging the gap between data and impact—turning raw information into intelligent solutions that create value.
+
+                  Beyond the technical side, I enjoy continuous learning, experimenting with new tools, and collaborating on projects that challenge me to think creatively. Data science excites me because it combines curiosity, problem-solving, and innovation to make a tangible difference. 
+                </p>
+                <div class="about-buttons">
+
+                    <a href="www.linkedin.com/in/rajula-jeevamani-792274281" target="_blank" rel="noopener">
+                        <button class="linkedin btn">linkedIn</button>
+                    </a>
+                    <a href="https://github.com/rajulajeevamani-hub" target="_blank" rel="noopener">
+                        <button class="github btn">Github</button>
+                    </a>
+                    <a href="resume/R.jeevamani@resume.pdf" target="_blank" rel="noopener">
+                        <button class="resume btn" >Resume</button>
+                    </a>
+                </div>
+            </div>
+            <div class="about-image" >
+                <img src="img/manipic.jpg" alt="Profile Photo" class="profile-image" style="max-width: 180px; border-radius: 8px;" />
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-category">
+            <h3>Data Science</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="https://images.vexels.com/media/users/3/166477/isolated/preview/9bb722f0e85ddbc1ce0f064534fd2311-python-programming-language-icon-by-vexels.png" alt="Python" width="200px" height="200px">
+                    <span>Python</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://seeklogo.com/images/P/pandas-icon-logo-BE10401BF1-seeklogo.com.png" alt="Pandas" height="200px" width="200px">
+                    <span>Pandas</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://seeklogo.com/images/N/numpy-logo-479C24EC79-seeklogo.com.png" alt="NumPy" height="200px" width="200px">
+                    <span>NumPy</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://logodix.com/logo/1198819.png" alt="Machine Learning" height="200px" width="200px">
+                    <span>Machine Learning</span>
+                </div>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h3>Web Development</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="HTML5" height="200px" width="200px">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://logospng.org/download/css-3/logo-css-3-1536.png" alt="CSS3" height="200px" width="200px">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript" height="200px" width="200px">
+                    <span>JavaScript</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-category">
+           <h3>Tools</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Git & GitHub" width="200px" height="200px">
+                    <span>Git & GitHub</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" width="200px" height="200px">
+                    <span>VS Code</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://saturncloud.io/images/glossary/jupyter-notebook.png" alt="Jupyter Notebook" width="200px" height="200px">
+                    <span>Jupyter Notebook</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://logosmarcas.net/wp-content/uploads/2021/10/Tableau-Emblema.jpg" alt="Tableau" width="200px" height="200px">
+                    <span>Tableau</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://img.icons8.com/color/154/power-bi.png" alt="Power BI" width="200px" height="200px">
+                    <span>Power BI</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xnnbwgby" method="POST">
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            </div>
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jeevamani. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
